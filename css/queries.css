@@ -1,0 +1,149 @@
+@media only screen and (max-width: 1200px) {
+    .content-items {
+        display: block !important;
+        text-align: center !important;
+        margin: 0px 0px;
+        display: block;
+        width: 100%;
+    }
+    .content-items .left-item,
+    .content-items .right-item {
+        justify-content: center !important;
+    }
+    #cards .subscribe-inner {
+        width: 400px;
+    }
+    .solutions .image-layer {
+        display: none;
+    }
+    .solutions .lowerDiv .lower-content {
+        display: block;
+    }
+    .solutions .inner-container .lowerDiv .lower-content .subscribe-btn {
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 999px) {
+    .col-lg-6 {
+        -ms-flex: 0 0 50% !important;
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #activities .single-activity {
+        padding-top: 80px;
+    }
+    #About .imgBox .image img {
+        padding-top: 2rem !important;
+    }
+    #lowerExplore .inner-container .single-item {
+        margin-bottom: 80px;
+    }
+    #lowerExplore .inner-container .innerBox::before {
+        display: none;
+    }
+    .swiper-slide {
+        width: 385px !important;
+        margin-top: 24px;
+    }
+    #cards .subscribe-inner {
+        width: 100% !important;
+    }
+    .our-teams .upperBox {
+        display: block !important;
+    }
+    .our-teams .upperBox .text {
+        text-align: center !important;
+    }
+    .our-teams .upperBox .icon-img {
+        margin: 20px auto !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .our-teams .upperBox .member-btn {
+        margin: 0px auto !important;
+    }
+}
+
+@media (max-width: 1030px) {
+    .slick-prev,
+    .slick-next {
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .solutions .pattern-box {
+        display: none;
+    }
+    .solutions .inner-container .lowerDiv .lower-content .d-flex {
+        display: block !important;
+    }
+    .solutions .lowerDiv .lower-content .iconbox {
+        margin: 0px auto;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    #About .about-box .inner-box {
+        display: block !important;
+    }
+    #About .about-box .inner-box .social-style {
+        margin-top: 30px !important;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .content-items .right-item {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .conter-items .item-2 .one {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 518px) {
+    .content-items .left-item {
+        flex-direction: column !important;
+        display: flex;
+        align-items: center;
+    }
+    #About .about-box .inner-box {
+        display: block !important;
+    }
+    #About .about-box .inner-box .social-style {
+        margin-top: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .content-items .left-item {
+        flex-direction: column !important;
+        display: flex;
+        align-items: center;
+    }
+    #About .imgBox .image img {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    #About .imgTxt {
+        width: 100%;
+        bottom: 0px;
+        margin-top: 3px;
+        right: 0;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+    #Home .carousel-item .caption h1 {
+        font-size: 2rem;
+    }
+    #Home .carousel-item .caption h3 {
+        font-size: 1rem;
+    }
+}
